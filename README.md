@@ -51,3 +51,19 @@ The final output of the recommendation system consists of personalized item sugg
 After evaluating the model, improvements can be made by fine-tuning hyperparameters, adding more data, switching to advanced techniques (like neural collaborative filtering or hybrid models), or using contextual information such as time, location, or user profiles. Once the model performs well, it can be deployed into a production system where it updates regularly based on new user interactions. Scalable infrastructure and monitoring systems ensure real-time performance and quality control in live environments.
 
 #OUTPUT
+
+Mean Squared Error: 0.3379
+
+Top 5 Movie Recommendations for User 1:
+Movie ID 318 with predicted rating 3.38
+Movie ID 385 with predicted rating 3.24
+Movie ID 423 with predicted rating 2.91
+Movie ID 732 with predicted rating 2.87
+Movie ID 273 with predicted rating 2.84
+
+Recommended Movie Titles:
+Schindler's List (1993) - Predicted Rating: 3.38
+True Lies (1994) - Predicted Rating: 3.24
+E.T. the Extra-Terrestrial (1982) - Predicted Rating: 2.91
+Dave (1993) - Predicted Rating: 2.87
+Heat (1995) - Predicted Rating: 2.84
